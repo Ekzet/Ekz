@@ -33,6 +33,9 @@ function performCalculation(operation) {
         case 'mul':
             result = op1 * op2;
             break;
+        case 'div':
+            result = op1 / op2;
+            break;
     }
 
     document.getElementById('res').textContent = 'Result: ' + result;
